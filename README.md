@@ -1,7 +1,7 @@
 # webcanvas_tetris
 Simple HTML5-Canvas/JavaScript Tetris game implementation. Demo complete with background effect.
 
-<img src="img/tetris.png" alt="Image of web demo being played" width="200" height="400"></img>
+<img src="img/tetris.png" alt="Image of web demo being played" width="350" height="700"></img>
 
 ---
 
