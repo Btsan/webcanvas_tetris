@@ -13,7 +13,7 @@ body {
 }
 
 canvas {
-	height: 85vh;
+	height: 79vh;
 	width: auto;
 }
 
@@ -45,8 +45,8 @@ button {
 	margin: 0 0.4cm;
 	border-width: 2px;
 	border-radius: 10px;
-	height: 8vh;
-	width: 8vh;
+	height: 6vh;
+	width: 9vh;
 	background-color: black;
 	font-weight: inherit;
 	color: inherit;

@@ -55,7 +55,7 @@ const draw = function(){
 	for (var i = 0; i < 10; ++i){
 		for (var j = 19; j < 40; ++j){
 			const x = i*width/10 + 10, y = (j-20)*(height)/20 + 10;
-			bg.strokeStyle = "rgba(" + (255*R.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + (255*G.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + (255*B.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + Math.pow(A.sample((x + 40)/width, (y + 40)/height, t), 3).toString() + ")";
+			bg.strokeStyle = "rgba(" + (255*R.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + (255*G.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + (255*B.sample((x + 40)/width, (y + 40)/height, t)).toString() + "," + Math.max(Math.pow(A.sample((x + 40)/width, (y + 40)/height, t), 4), 0.1).toString() + ")";
 			bg.strokeRect(x, y, 80, 80);
 		}
 	}
