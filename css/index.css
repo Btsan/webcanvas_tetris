@@ -1,0 +1,64 @@
+body {
+	-webkit-touch-callout: none;
+	-webkit-text-size-adjust: none;
+	-webkit-user-select: none;
+	font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+	font-size:12px;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	overflow: hidden;
+	background-color: black;
+}
+
+canvas {
+	height: 85vh;
+	width: auto;
+}
+
+#background {
+	position: absolute;
+	top: 0;
+	z-index: -2;
+}
+
+#playfield {
+	z-index: -1;
+}
+
+.hidden {
+	display: none;
+}
+
+.buttons {
+	position: absolute;
+	top: 0;
+}
+
+.UI {
+	font-weight: bold;
+	color: white;
+}
+
+button {
+	margin: 0 0.4cm;
+	border-width: 2px;
+	border-radius: 10px;
+	height: 8vh;
+	width: 8vh;
+	background-color: black;
+	font-weight: inherit;
+	color: inherit;
+}
+
+p {
+	font-weight: inherit;
+	color: inherit;
+}
+
+#start_btn {
+	position: absolute;
+	top: 40vh;
+	left: center;
+}
