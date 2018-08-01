@@ -13,4 +13,4 @@ The background animation uses colors interpolated from [value noise](https://en.
 
 ## Tetris
 
-The game implementation tries to follow the [standard Tetris guidelines](http://tetris.wikia.com/wiki/Tetris_Guideline). I chose not to implement *wall-kicks* or other player conveniences, since it did not seem necessary for my other project.
+The game implementation tries to follow the [standard Tetris guidelines](http://tetris.wikia.com/wiki/Tetris_Guideline). I chose not to implement *wall-kicks* or other player conveniences, since it did not seem necessary for my other project. Score is also not counted, but it would be simple to implement.
