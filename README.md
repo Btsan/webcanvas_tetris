@@ -1,8 +1,6 @@
 # webcanvas_tetris
 Simple HTML5-Canvas/JavaScript Tetris game implementation. [Demo](https://havorax.github.io/webcanvas_tetris/) complete with background effect.
 
-<img src="img/tetris.png" alt="Image of web demo being played" width="350" height="700"></img>
-
 ---
 
 This project began as part of another project, but later did not get used. I modified it to be a [playable web demo](https://havorax.github.io/webcanvas_tetris/). It runs well on desktop and mobile devices.
